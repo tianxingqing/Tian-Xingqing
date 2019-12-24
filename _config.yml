@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url:https://tianxingqing.github.io/Tian-Xingqing/
+url: https://tianxingqing.github.io/Tian-Xingqing/
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
