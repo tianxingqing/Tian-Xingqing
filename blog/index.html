@@ -5,25 +5,48 @@ layout: page
 title: Blog
 ---
 <section class="list">
-	{% if site.posts.size == 0 %}
-		<p class="text-center">Nothing published yet!</p>
-	{% elsif site.paginate %}
-		{% for post in paginator.posts %}
-			{% if post.category == 'blog' %}
-				{% if post.hidden != true %}
-					{% include blog-post.html %}
-				{% endif %}
-			{% endif %}
-		{% endfor %}
-
-		{% include pagination.html%}
-	{% else %}
-		{% for post in site.posts %}
-			{% if post.category == 'blog' %}
-				{% if post.hidden != true %}
-					{% include blog-post.html %}
-				{% endif %}
-			{% endif %}
-		{% endfor %}
-	{% endif %}
+	
+	<h3 style="">about me</h3>
+	<table style="margin: 0 auto;width: 800px;">
+	  <tr>
+		<td>Name：Tian Xingqing</td>
+		<td>Date of birth：1997.10.22</td>
+	  </tr>
+	  <tr >
+		<td>Nationality：Han</td>
+		
+	  </tr>
+	  <tr>
+	  		<td>Telephone：15736476469</td>
+	  		<td>political outlook ： Member of the Chinese Communist YouthLeague </td>
+	  </tr>
+	  <tr>
+	  		<td>Mailbox：tian9208@qq.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	  		<td>Graduated school ： Chongqing University of Education</td>
+	  </tr>
+	  <tr>
+	  		<td>Address：Chongqing</td>
+	  		<td>Education：Bachelor</td>
+	  </tr>
+	</table>
+	<h3 style="margin-top: 30px;">Education background</h3>
+	<div>
+		<div>
+			<span>
+				2016.09-2020.06 ChongqingUniversityofEducation English（Bachelor） 
+			</span>
+		</div>
+		<div>
+			Majorcourses：
+		</div>
+		<div>
+			Integrated English、English audio-visual listening and speaking、English reading and writing、Written translation、
+			Interpretation、Englishnationalsocietyand culture、Computer-assistedtranslation、Japanese
+		</div>
+	</div>
+	<h3 style="margin-top: 30px;">work experience</h3>
+	<div>
+		<div>Longshan street Sub-district Office</div>
+		<div>Handle letters and visits from the masses, do a good job in mediation and accident handling of pollution disputes, publicizes environmental protection policies, popularize environmental protection knowledge, and complete the tasks explained by superiors. </div>
+	</div>
 </section>
