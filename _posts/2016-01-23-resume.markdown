@@ -1,0 +1,16 @@
+---
+title: ":resume"
+layout: post
+date: 2016-01-23 22:10
+tag: jekyll
+image: ![Screenshot_20191223_234739](E:\田兴清\新建文件夹\Tian-Xingqing\_posts\Screenshot_20191223_234739.jpg)
+headerImage: true
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "This is a resume."
+category: project
+author: johndoe
+externalLink: false
+---
+
+
