@@ -7,7 +7,6 @@ layout: page
 <img src="(assets/images/resume.jpg)">
 
 <h2>Skills</h2>
-
 <ul class="skill-list">
 	<li>HTML - Jade - Haml - Erb</li>
 	<li>Responsive (Mobile First)</li>
@@ -26,9 +25,10 @@ layout: page
 </ul>
 
 <h2>Projects</h2>
-
 <ul>
 	<li><a href="https://github.com/">Lorem Lorem</a></li>
 	<li><a href="https://github.com/">Ipsum Dolor</a></li>
 	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<a href="translation project.pdf" target="_blank">Translation project</a>
 </ul>
+
